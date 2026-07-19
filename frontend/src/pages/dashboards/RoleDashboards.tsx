@@ -1,6 +1,6 @@
 import React from 'react';
 import { useAuth } from '../../context/AuthContext';
-import { Navbar } from '../../components/layout/Navbar';
+
 import { LogOut } from 'lucide-react';
 
 const BaseDashboard: React.FC<{ title: string; children: React.ReactNode }> = ({ title, children }) => {

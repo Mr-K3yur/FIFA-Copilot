@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { MessageSquare, Send, X, Bot, User } from 'lucide-react';
+import { MessageSquare, Send, X, Bot } from 'lucide-react';
 
 interface Message {
   id: string;

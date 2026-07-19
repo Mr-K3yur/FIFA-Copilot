@@ -9,7 +9,7 @@ import { EmergencyButton } from '../../components/fan/EmergencyButton';
 export const FanDashboard: React.FC = () => {
   const { user, logout } = useAuth();
   const [highContrast, setHighContrast] = useState(false);
-  const [lang, setLang] = useState('EN');
+  const [lang] = useState('EN');
 
   return (
     <div className={`min-h-screen transition-colors duration-300 ${highContrast ? 'bg-black text-yellow-400' : 'bg-slate-950 text-white'}`}>
